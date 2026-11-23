@@ -1,5 +1,0 @@
-#Women in Design
-[Version 1](https://fwilkinson08.github.io/women_in_design/home_page.html)
-Created first HTML page
-[Version 2](https://fwilkinson08.github.io/women_in_design/home_page-2.html)
-Created second HTML page
