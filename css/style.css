@@ -1,7 +1,7 @@
 
 body{
-    background: #f7f7f7;
-    color: #333333
+    background: #FFFEF6;
+    color: #3C3316;
     font-family: "Roboto Serif", serif;}
 
 section, header {
@@ -17,8 +17,9 @@ p {
 
 header p {
     font-family: "Roboto", sans-serif;
-    font-size: 1.5rem
-    font-weight:300}
+    font-size: 1.5rem;
+    font-weight: 300;
+}
 
 h1 {font-size: 4.300rem;
     line-height:1.1;
@@ -33,23 +34,120 @@ h2 {font-size: 2.488rem;
 
 h3 {font-size: 2.074rem;
     margin-top: 3em 0 1em 0;
-    color:#914e56}
+    color:#48182E}
 
-blockquote{
-    margin-bottom: 1.5rem;
-    line-height: 1.5}
-
-blockquote{
+blockquote {
     font-family: "Roboto Serif", serif;
-    margin-bottom: 1.5rem;
-    line-height:1.5rem;
+    line-height: 1.5;
     font-style: italic;
+    font-size: 1.5rem;
     hanging-punctuation: first;
     text-indent: -0.6rem;
-    margin: 4em 0 2em 0;}
-
-footer{
-    text-align: center;
-    margin: 4em 0 0em 0;
+    margin: 4em 0 2em 0;
 }
 
+/*-- navigation --*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.responsivenav {
+    background: #D2B0AF;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-size: 2rem;
+    color: #FFFEF6;
+    font-weight: 600;
+    padding-left: 35px;
+}
+
+#logo p {
+    font-family: "Roboto", sans-serif;
+}
+
+/*--STYLING LINKS--*/
+
+a{
+    color:#8f8360;
+    text-decoration: none;
+    border-bottom: 2px dotted;
+    font-weight: 600;
+}
+
+a:hover{
+    color: #957082;
+    transition: all 0.3s ease-in-out;
+}
+
+nav{
+    display:flex;
+    padding: 1.5rem 0;
+    font-size: 0.8rem;
+}
+
+nav ul {
+text-align: right;
+text-transform: uppercase;
+letter-spacing: 1px;
+list-style-type: none;
+padding-right: 70px;
+font-family: "Roboto", sans-serif;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
+
+nav a {
+    border-bottom: none;
+    text-decoration: none;
+    color:#FFFEF6;
+    padding: 10px;
+}
+
+    nav a:hover {
+        color: #5C1620;
+        transition: all 0.3s ease-in-out;
+    }
+
+.light {
+    background: #708C95;
+    padding: 3rem 0;
+}
+
+.book ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.books li {
+    padding-bottom: 1rem;
+}
+
+
+footer {
+    background: #957082;
+    color: #3C3316;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+footer a {
+    color:#3C3316;
+}
+
+footer a:hover{
+    color: #D2B0AF;
+}
